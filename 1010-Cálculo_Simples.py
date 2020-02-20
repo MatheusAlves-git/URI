@@ -1,8 +1,6 @@
-codpeca1 = int(input())
-numpecas1 = int(input())
-valoruni1 = float(input())
-codpeca2 = int(input())
-numpecas2 = int(input())
-valoruni2 = float(input())
-valor = valoruni1*numpecas1+valoruni2*numpecas2
+cod_peca1, quant_peca1, valoruni_peca1 = input().split()
+
+cod_peca2, quant_peca2, valoruni_peca2 = input().split()
+
+valor = float(valoruni_peca1)*int(quant_peca1)+float(valoruni_peca2)*int(quant_peca2)
 print('VALOR A PAGAR: R$ {:.2f}'.format(valor))
