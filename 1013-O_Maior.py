@@ -1,0 +1,6 @@
+linha = input().split()
+a = int(linha[0])
+b = int(linha[1])
+c = int(linha[2])
+m = max(a, b, c)
+print('{:.0f} eh o maior'.format(m))
